@@ -28,7 +28,7 @@ namespace VANCHEER.Web
 
                     IList<T> list = new List<T>();
 
-                    PropertyInfo[] classPropertyInfo = new IndexConfig().GetType().GetProperties();
+                    PropertyInfo[] classPropertyInfo = new T().GetType().GetProperties();
                     
                     while (dataReader.Read())
                     {
