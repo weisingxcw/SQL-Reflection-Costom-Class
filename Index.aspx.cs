@@ -46,12 +46,6 @@ namespace VANCHEER.Web
                 }
             }
         }
-
-        protected partial class IndexConfig 
-        {
-            public string ID { get; set; }
-            public string Title { get; set; }
-        }
     }
 
 }
