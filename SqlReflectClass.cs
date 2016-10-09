@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Data.SqlClient;
 using System.Reflection;
 
-namespace VANCHEER.Web
+namespace Web.SQL
 {
     public partial class Index : System.Web.UI.Page
     {
